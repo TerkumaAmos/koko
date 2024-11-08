@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         body: Expanded(
             child: Column(
           children: [
-            Row(
+            ListView(
               children: [
                 Padding(
                   padding: const EdgeInsets.all(8.0),
