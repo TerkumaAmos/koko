@@ -24,14 +24,19 @@ class MyApp extends StatelessWidget {
                     color: Colors.red,
                     borderRadius: BorderRadius.circular(30),
                   ),
+
+                  // decoration: const BoxDecoration(
+                  //   color: Colors.amber,
+                  //   shape: BoxShape.rectangle,
                 ),
-                SizedBox(height: 20), // Spacer between containers
+                const SizedBox(
+                  height: 20,
+                ),
                 Container(
                   height: 300,
                   width: 300,
                   decoration: BoxDecoration(
-                    color:
-                        Colors.blue, // Different color for the second container
+                    color: Colors.black,
                     borderRadius: BorderRadius.circular(30),
                   ),
                 ),
@@ -40,6 +45,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+      // ),
     );
   }
 }
