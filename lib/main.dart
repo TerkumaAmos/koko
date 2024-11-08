@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
           children: [
             Expanded(
               child: ListView(
+                scrollDirection: Axis.horizontal,
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
