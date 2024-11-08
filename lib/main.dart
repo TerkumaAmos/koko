@@ -20,13 +20,71 @@ class MyApp extends StatelessWidget {
           children: [
             Row(
               children: [
-                Container(
-                  decoration: const BoxDecoration(
-                    color: Colors.pink,
-                    shape: BoxShape.circle,
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.pink,
+                      shape: BoxShape.circle,
+                    ),
+                    height: 300,
+                    width: 300,
                   ),
-                  height: 300,
-                  width: 300,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.pink,
+                      shape: BoxShape.circle,
+                    ),
+                    height: 300,
+                    width: 300,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.pink,
+                      shape: BoxShape.circle,
+                    ),
+                    height: 300,
+                    width: 300,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.pink,
+                      shape: BoxShape.circle,
+                    ),
+                    height: 300,
+                    width: 300,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.pink,
+                      shape: BoxShape.circle,
+                    ),
+                    height: 300,
+                    width: 300,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: Colors.pink,
+                      shape: BoxShape.circle,
+                    ),
+                    height: 300,
+                    width: 300,
+                  ),
                 )
               ],
             ),
