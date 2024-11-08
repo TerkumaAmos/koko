@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MySquare extends StatelessWidget {
-  const MySquare({super.key});
-
+  final String child;
+  MySquare({required this.child});
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -10,6 +10,12 @@ class MySquare extends StatelessWidget {
       child: Container(
         height: 300,
         color: Colors.red,
+        child: Center(
+          child: Text(
+            child,
+            style: TextStyle(fontSize: 30),
+          ),
+        ),
       ),
     );
   }

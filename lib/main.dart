@@ -16,11 +16,31 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Expanded(
-            child: ListView.builder(
-                itemCount: _posts.length,
-                itemBuilder: (context, index) {
-                  return MySquare();
-                })),
+            child: Column(
+          children: [
+            Row(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.pink,
+                    shape: BoxShape.circle,
+                  ),
+                  height: 30,
+                  width: 30,
+                )
+              ],
+            ),
+            Expanded(
+              child: ListView.builder(
+                  itemCount: _posts.length,
+                  itemBuilder: (context, index) {
+                    return MySquare(
+                      child: _posts[index],
+                    );
+                  }),
+            ),
+          ],
+        )),
       ),
     );
   }
