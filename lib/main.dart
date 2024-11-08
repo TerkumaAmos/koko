@@ -21,12 +21,12 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.pink,
                     shape: BoxShape.circle,
                   ),
-                  height: 30,
-                  width: 30,
+                  height: 300,
+                  width: 300,
                 )
               ],
             ),
