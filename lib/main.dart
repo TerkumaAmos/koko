@@ -18,75 +18,77 @@ class MyApp extends StatelessWidget {
         body: Expanded(
             child: Column(
           children: [
-            ListView(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.pink,
-                      shape: BoxShape.circle,
+            Expanded(
+              child: ListView(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.pink,
+                        shape: BoxShape.circle,
+                      ),
+                      height: 30,
+                      width: 30,
                     ),
-                    height: 30,
-                    width: 30,
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.pink,
-                      shape: BoxShape.circle,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.pink,
+                        shape: BoxShape.circle,
+                      ),
+                      height: 30,
+                      width: 30,
                     ),
-                    height: 30,
-                    width: 30,
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.pink,
-                      shape: BoxShape.circle,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.pink,
+                        shape: BoxShape.circle,
+                      ),
+                      height: 30,
+                      width: 30,
                     ),
-                    height: 30,
-                    width: 30,
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.pink,
-                      shape: BoxShape.circle,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.pink,
+                        shape: BoxShape.circle,
+                      ),
+                      height: 30,
+                      width: 30,
                     ),
-                    height: 30,
-                    width: 30,
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.pink,
-                      shape: BoxShape.circle,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.pink,
+                        shape: BoxShape.circle,
+                      ),
+                      height: 30,
+                      width: 30,
                     ),
-                    height: 30,
-                    width: 30,
                   ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      color: Colors.pink,
-                      shape: BoxShape.circle,
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: Colors.pink,
+                        shape: BoxShape.circle,
+                      ),
+                      height: 30,
+                      width: 30,
                     ),
-                    height: 30,
-                    width: 30,
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
             Expanded(
               child: ListView.builder(
