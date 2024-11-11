@@ -13,8 +13,17 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
-          elevation: 4,
+          backgroundColor: Colors.deepPurple[300],
+          elevation: 0,
+          title: const Center(
+            child: Text(
+              'Family Group',
+            ),
+          ),
+          leading: IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.menu),
+          ),
         ),
       ),
     );
