@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: const Homepage(),
+        body: Homepage(),
         appBar: AppBar(
           backgroundColor: Colors.deepPurple[300],
           elevation: 0,

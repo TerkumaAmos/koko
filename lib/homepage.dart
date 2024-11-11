@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
-  const Homepage({super.key});
-
   @override
   State<Homepage> createState() => _HomepageState();
 }
@@ -18,6 +16,7 @@ class _HomepageState extends State<Homepage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 3,
         type: BottomNavigationBarType.fixed,
         items: const [
           BottomNavigationBarItem(
@@ -29,8 +28,8 @@ class _HomepageState extends State<Homepage> {
             label: 'Message',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Account',
+            icon: Icon(Icons.settings),
+            label: 'settings',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
