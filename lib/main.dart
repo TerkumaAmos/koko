@@ -1,3 +1,4 @@
+import 'package:amos/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,40 +10,44 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.deepPurple[300],
-          elevation: 0,
-          title: const Center(
-            child: Text(
-              'Family Group',
-            ),
-          ),
-          leading: IconButton(
-            onPressed: () {
-              // open menu
-            },
-            icon: Icon(Icons.menu),
-          ),
-          actions: [
-            IconButton(
-              onPressed: () {
-                // do something
-              },
-              icon: Icon(Icons.share),
-            ),
-            IconButton(
-              onPressed: () {
-                // open meneu
-              },
-              icon: const Icon(Icons.person),
-            ),
-          ],
-        ),
-      ),
-    );
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          body: Homepage(),
+        )
+        //     appBar: AppBar(
+        //       backgroundColor: Colors.deepPurple[300],
+        //       elevation: 0,
+        //       title: const Center(
+        //         child: Text(
+        //           'Family Group',
+        //         ),
+        //       ),
+        //       leading: IconButton(
+        //         onPressed: () {
+        //           // open menu
+        //         },
+        //         icon: Icon(Icons.menu),
+        //       ),
+        //       actions: [
+        //         IconButton(
+        //           onPressed: () {
+        //             // do something
+        //           },
+        //           icon: Icon(Icons.share),
+        //         ),
+        //         IconButton(
+        //           onPressed: () {
+        //             // open meneu
+        //           },
+        //           icon: const Icon(Icons.person),
+        //         ),
+        //       ],
+        //     ),
+        //   ),
+        //
+        // );
+        );
   }
 }
 
