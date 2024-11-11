@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.transparent,
-          elevation: 0,
+          elevation: 4,
         ),
       ),
     );
