@@ -21,45 +21,24 @@ class MyApp extends StatelessWidget {
             ),
           ),
           leading: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              // open menu
+            },
             icon: Icon(Icons.menu),
           ),
+          actions: [
+            IconButton(
+              onPressed: () {
+                // do something
+              },
+              icon: Icon(Icons.share),
+            ),
+          ],
         ),
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import 'package:flutter/material.dart';
 
