@@ -33,6 +33,12 @@ class MyApp extends StatelessWidget {
               },
               icon: Icon(Icons.share),
             ),
+            IconButton(
+              onPressed: () {
+                // open meneu
+              },
+              icon: const Icon(Icons.person),
+            ),
           ],
         ),
       ),
